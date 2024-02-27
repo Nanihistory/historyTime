@@ -5,7 +5,11 @@
           href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
     <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
     <style type="text/css">
-        .tl-timeaxis-tick:before .tl-timeaxis-minor  {background-color: blue !important;}
+        body div .tl-headline-date{
+            font-size: 20px !important;
+            color: black !important;
+            text-shadow: none !important;
+        }
     </style>
 </head>
 <body>
@@ -17,7 +21,8 @@ var options = {
     height:             '2000',
     hash_bookmark:      false,
     initial_zoom:       10,
-    hash_bookmark:      true
+    hash_bookmark:      true,
+    ga_measurement_id:  'G-FREF74HEZH'
 }
 var timeline = new TL.Timeline('timeline-embed',
 'https://docs.google.com/spreadsheets/d/1eXbsfBkNOMtNTGhHy8n1BkHhhtQg_6GH8X2RESWX8Ak/edit#gid=0',

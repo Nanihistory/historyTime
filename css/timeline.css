@@ -161,8 +161,8 @@
 .tl-timeline .tl-credit,
 .tl-timeline .tl-slidenav-next,
 .tl-timeline .tl-slidenav-previous {
-  font-size: 11px;
-  line-height: 11px;
+  font-size: 18px;
+  line-height: 18px;
 }
 .tl-timeline .tl-caption a,
 .tl-timeline .tl-credit a,
@@ -1513,8 +1513,7 @@
   transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
 }
 .tl-timegroup .tl-timegroup-message {
-  color: #e0e0e0;
-  text-shadow: #FFF 0px 2px 2px;
+  color: black;
   margin-left: 80px;
 }
 .tl-timegroup.tl-timegroup-alternate {
@@ -1831,8 +1830,7 @@
 .tl-slide.tl-full-color-background blockquote,
 .tl-slide.tl-full-image-background blockquote p,
 .tl-slide.tl-full-color-background blockquote p {
-  text-shadow: 1px 1px 1px #000;
-  color: #ffffff;
+  color: black;
 }
 .tl-slide.tl-full-image-background a:hover,
 .tl-slide.tl-full-color-background a:hover {
@@ -1843,7 +1841,7 @@
 .tl-slide.tl-full-color-background .tl-caption,
 .tl-slide.tl-full-image-background .tl-credit,
 .tl-slide.tl-full-color-background .tl-credit {
-  color: #FFF !important;
+  color: #272727 !important;
   text-shadow: 1px 1px 1px #000 !important;
 }
 .tl-slide.tl-full-image-background .tl-media-twitter blockquote,

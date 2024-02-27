@@ -1820,7 +1820,6 @@
 .tl-slide.tl-full-image-background h6,
 .tl-slide.tl-full-color-background h6 {
   color: #FFF !important;
-  text-shadow: 1px 1px 1px #000 !important;
 }
 .tl-slide.tl-full-image-background a,
 .tl-slide.tl-full-color-background a,
@@ -2501,16 +2500,16 @@
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 15px;
+  font-size: 20px;
+  line-height: 20px;
   font-weight: normal;
   margin: 0 0 3px 0;
   color: #b3b3b3;
 }
 .tl-text .tl-headline-date small,
 .tl-text h3.tl-headline-date small {
-  font-size: 15px;
-  line-height: 15px;
+  font-size: 20px;
+  line-height: 20px;
   font-weight: normal;
   color: #b3b3b3;
 }
@@ -2537,7 +2536,7 @@
 .tl-full-color-background .tl-text h3.tl-headline-date,
 .tl-full-image-background .tl-text p h3.tl-headline-date,
 .tl-full-color-background .tl-text p h3.tl-headline-date {
-  color: #f2f2f2 !important;
+  color: black !important;
 }
 .tl-full-image-background .tl-text .tl-headline-date small,
 .tl-full-color-background .tl-text .tl-headline-date small,
@@ -2547,7 +2546,7 @@
 .tl-full-color-background .tl-text h3.tl-headline-date small,
 .tl-full-image-background .tl-text p h3.tl-headline-date small,
 .tl-full-color-background .tl-text p h3.tl-headline-date small {
-  color: #f2f2f2 !important;
+  color: black !important;
 }
 .tl-full-image-background .tl-text a:hover,
 .tl-full-color-background .tl-text a:hover,

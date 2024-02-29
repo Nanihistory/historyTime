@@ -2495,16 +2495,16 @@
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 28px;
+  line-height: 28px;
   font-weight: normal;
   margin: 0 0 3px 0;
   color: #b3b3b3;
 }
 .tl-text .tl-headline-date small,
 .tl-text h3.tl-headline-date small {
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 28px;
+  line-height: 28px;
   font-weight: normal;
   color: #b3b3b3;
 }

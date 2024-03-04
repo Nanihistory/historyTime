@@ -80,6 +80,9 @@
   font-size: 15px;
   line-height: 15px;
 }
+.tl-headline .tl-headline-title {
+  color: #FFF !important;
+}
 .tl-timeline h2.tl-headline-title {
   font-size: 38px;
   line-height: 38px;
@@ -97,7 +100,7 @@
 .tl-timeline p {
   margin-top: 5px;
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 22px !important;
   line-height: 1.42857143;
   color: #666666;
 }
@@ -1515,6 +1518,7 @@
 .tl-timegroup .tl-timegroup-message {
   color: black;
   margin-left: 80px;
+  font-size: 30px;
 }
 .tl-timegroup.tl-timegroup-alternate {
   background-color: #fafafa;
@@ -1817,7 +1821,7 @@
 .tl-slide.tl-full-color-background h5,
 .tl-slide.tl-full-image-background h6,
 .tl-slide.tl-full-color-background h6 {
-  color: #FFF !important;
+  color: #000000 !important;
 }
 .tl-slide.tl-full-image-background a,
 .tl-slide.tl-full-color-background a,

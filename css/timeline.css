@@ -80,9 +80,6 @@
   font-size: 15px;
   line-height: 15px;
 }
-.tl-headline .tl-headline-title {
-  color: #FFF !important;
-}
 .tl-timeline h2.tl-headline-title {
   font-size: 38px;
   line-height: 38px;
@@ -166,6 +163,10 @@
 .tl-timeline .tl-slidenav-previous {
   font-size: 18px;
   line-height: 18px;
+}
+.tl-timeline .tl-credit{
+  text-decoration: underline;
+  font-style: italic;
 }
 .tl-timeline .tl-caption a,
 .tl-timeline .tl-credit a,
@@ -2495,6 +2496,9 @@
 .tl-text h2.tl-headline-title,
 .tl-text h2.tl-headline {
   margin-top: 0;
+}
+.tl-text h2.tl-headline-title:first-of-type{
+  color: #FFF !important;
 }
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {

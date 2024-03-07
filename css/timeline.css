@@ -1084,25 +1084,6 @@
   color: #bfbfbf;
   position: relative;
 }
-@media screen and (max-width: 767px) {
-  .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline,
-  .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline p {
-    display: -webkit-box;
-    line-clamp: 2;
-    -webkit-line-clamp: 2;
-    box-orient: vertical;
-    -webkit-box-orient: vertical;
-    text-overflow: ellipsis;
-    font-size: 12px;
-    line-height: 12px;
-    height: 100%;
-    overflow: hidden;
-    font-weight: normal;
-    margin: 0;
-    color: #bfbfbf;
-    position: relative;
-  }
-}
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline.tl-headline-fadeout:after,
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline p.tl-headline-fadeout:after {
   content: "";
@@ -1139,21 +1120,6 @@
   -moz-box-sizing: border-box;
   /* Firefox, other Gecko */
   box-sizing: border-box;
-}
-@media screen and (max-width: 767px) {
-  .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container {
-    float: left;
-    max-width: 34px;
-    max-height: 34px;
-    overflow: hidden;
-    margin-right: 5px;
-    height: 100%;
-    -webkit-box-sizing: border-box;
-    /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;
-    /* Firefox, other Gecko */
-    box-sizing: border-box;
-  }
 }
 .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-media-container .tl-timemarker-media {
   max-width: 24px;

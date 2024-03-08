@@ -2497,9 +2497,6 @@
 .tl-text h2.tl-headline {
   margin-top: 0;
 }
-.tl-text h2.tl-headline-title:first-of-type{
-  color: #FFF !important;
-}
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2961,6 +2958,10 @@
 }
 .tl-rtl .tl-credit {
   text-align: left;
+}
+.tl-text h2.tl-headline-title:first-of-type{
+  color: #FFF !important;
+  text-align: center !important;
 }
 
 @media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {

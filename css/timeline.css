@@ -97,7 +97,7 @@
 .tl-timeline p {
   margin-top: 5px;
   margin-bottom: 10px;
-  font-size: 22px !important;
+  font-size: 15px;
   line-height: 1.42857143;
   color: #666666;
 }
@@ -161,8 +161,8 @@
 .tl-timeline .tl-credit,
 .tl-timeline .tl-slidenav-next,
 .tl-timeline .tl-slidenav-previous {
-  font-size: 18px;
-  line-height: 18px;
+  font-size: 11px;
+  line-height: 11px;
 }
 .tl-timeline .tl-credit{
   text-decoration: underline;
@@ -1519,7 +1519,6 @@
 .tl-timegroup .tl-timegroup-message {
   color: black;
   margin-left: 80px;
-  font-size: 30px;
 }
 .tl-timegroup.tl-timegroup-alternate {
   background-color: #fafafa;
@@ -2500,16 +2499,16 @@
 .tl-text .tl-headline-date,
 .tl-text h3.tl-headline-date {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 28px;
-  line-height: 28px;
+  font-size: 15px;
+  line-height: 15px;
   font-weight: normal;
   margin: 0 0 3px 0;
   color: #b3b3b3;
 }
 .tl-text .tl-headline-date small,
 .tl-text h3.tl-headline-date small {
-  font-size: 28px;
-  line-height: 28px;
+  font-size: 15px;
+  line-height: 15px;
   font-weight: normal;
   color: #b3b3b3;
 }

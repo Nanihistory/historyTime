@@ -2964,14 +2964,14 @@
   text-align: center !important;
 }
 
-@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
-  .tl-timemarker-content-container-small {
-    height: 40px !important;
-    width: 200px !important;
-  }
-  .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline{
-    font-size: 26px !important;
-    line-height: 26px !important;
-  }
-}
+/*@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {*/
+/*  .tl-timemarker-content-container-small {*/
+/*    height: 40px !important;*/
+/*    width: 200px !important;*/
+/*  }*/
+/*  .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline{*/
+/*    font-size: 26px !important;*/
+/*    line-height: 26px !important;*/
+/*  }*/
+/*}*/
 /*# sourceMappingURL=timeline.css.map*/

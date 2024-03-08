@@ -25,28 +25,28 @@ var timeline = new TL.Timeline('timeline-embed',
 'https://docs.google.com/spreadsheets/d/1eXbsfBkNOMtNTGhHy8n1BkHhhtQg_6GH8X2RESWX8Ak/edit#gid',
     options);
 
-// function setGroupColor(groups, keyword, color) {
-//     var keywordGroups = groups.filter(function (group) {
-//         var message = group.querySelector('.tl-timegroup-message');
-//         return message && message.textContent.includes(keyword);
-//     });
-//
-//     keywordGroups.forEach(function (group) {
-//         group.style.backgroundColor = color;
-//     });
-// }
-//
-// // Check every second for tl-timegroup elements
-// var checkExist = setInterval(function() {
-//     var allTimeGroups = Array.from(document.querySelectorAll('.tl-timegroup'));
-//     if (allTimeGroups.length) {
-//         // If tl-timegroup elements exist, set their color
-//         setGroupColor(allTimeGroups, '世界', '#98D2EB');
-//         setGroupColor(allTimeGroups, '臺灣', '#D6BA73');
-//         setGroupColor(allTimeGroups, '東亞', '#DDA3B2');
-//
-//         // Stop checking
-//         clearInterval(checkExist);
-//     }
-// }, 1000); // check every 1000ms
+function setGroupColor(groups, keyword, color) {
+    var keywordGroups = groups.filter(function (group) {
+        var message = group.querySelector('.tl-timegroup-message');
+        return message && message.textContent.includes(keyword);
+    });
+
+    keywordGroups.forEach(function (group) {
+        group.style.backgroundColor = color;
+    });
+}
+
+// Check every second for tl-timegroup elements
+var checkExist = setInterval(function() {
+    var allTimeGroups = Array.from(document.querySelectorAll('.tl-timegroup'));
+    if (allTimeGroups.length) {
+        // If tl-timegroup elements exist, set their color
+        setGroupColor(allTimeGroups, '世界', '#98D2EB');
+        setGroupColor(allTimeGroups, '臺灣', '#D6BA73');
+        setGroupColor(allTimeGroups, '東亞', '#DDA3B2');
+
+        // Stop checking
+        clearInterval(checkExist);
+    }
+}, 1000); // check every 1000ms
 </script>
